@@ -9,7 +9,7 @@ f1.close()
 
 os.chdir("repo")
 section = ""
-for files in glob.glob("repo/*.html"):
+for files in glob.glob("*.html"):
     text = "<h3><a class='note' href='repo/%s' >%s</a></h3>\n" % (files, files[:files.find('.')])
     section = section + text
 os.chdir("..")
