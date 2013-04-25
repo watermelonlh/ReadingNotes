@@ -7,10 +7,12 @@ f1 = open("template", "r")
 f = f1.read()
 f1.close()
 
+os.chdir("repo")
 section = ""
 for files in glob.glob("repo/*.html"):
     text = "<h3><a class='note' href='repo/%s' >%s</a></h3>\n" % (files, files[:files.find('.')])
     section = section + text
+os.chdir("..")
 
 nf = f.replace("$section$", section)
 
