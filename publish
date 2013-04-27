@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./ScanRepo.py
+git add .
+git commit -a
+git push origin gh-pages
