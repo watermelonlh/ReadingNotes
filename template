@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ReadingNotes by watermelonlh</title>
+    <title>读书笔记 by 西瓜仔</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,7 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>ReadingNotes</h1>
+        <h1>读书笔记</h1>
+        <p>身体和灵魂，总有一个要在路上。</p>
       </header>
   <style type="text/css">
     .note {
